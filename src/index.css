@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for retro feel */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #e5e5e5; }
+::-webkit-scrollbar-thumb { background: #1a1818; border: 1px solid #e5e5e5; }
+
+body { 
+  background-color: #f8f5f2; 
+  color: #1a1818; 
+}
+
+.pixel-text { 
+  font-family: 'VT323', monospace; 
+  letter-spacing: -0.02em; 
+}
+
+.clip-pixel { 
+  clip-path: polygon(
+    0px 4px, 4px 4px, 4px 0px, 
+    calc(100% - 4px) 0px, calc(100% - 4px) 4px, 100% 4px, 
+    100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 
+    4px 100%, 4px calc(100% - 4px), 0px calc(100% - 4px)
+  ); 
+}
