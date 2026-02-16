@@ -1,8 +1,31 @@
 # Academic-Weapon-App
 
-QuestLog - Academic RPG Planner
+QuestLog - Academic RPG Planner (Offline-First)
 
-A pixel-art styled academic planner built with React, featuring an RPG-themed interface for managing courses, assignments, and schedules.
+A pixel-art styled academic planner built with React + Firebase, featuring:
+- 🎮 RPG-themed UI with pixel art styling
+- 📚 Course management with schedule import
+- ✅ Assignment tracking with smart parsing
+- 📅 Calendar view
+- 🎯 Focus mode for important assignments
+- 📊 Dashboard with progress tracking
+- 📤 Import: Syllabus PDF, Schedule screenshot, Voice
+- 🔌 **Works offline** — syncs when connected
+
+## Quick Start
+
+```bash
+npm install
+npm run emulators   # Terminal 1: Firebase emulators
+npm run dev         # Terminal 2: Vite dev server
+```
+
+Or run both:
+```bash
+npm run dev:all
+```
+
+See [docs/SETUP.md](docs/SETUP.md) for full setup.
 
 ## Features
 
